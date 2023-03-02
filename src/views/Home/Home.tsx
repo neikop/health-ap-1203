@@ -13,7 +13,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='container-lg pb-7'>
+      <div className='container-lg'>
         <FetchMeal />
       </div>
     </>
