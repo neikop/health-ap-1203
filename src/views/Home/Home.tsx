@@ -92,13 +92,13 @@ const Home = () => {
           ))}
         </div>
 
-        {hasNextPage && (
-          <div className='flex justify-center my-7'>
+        <div className='flex justify-center my-7'>
+          {hasNextPage && (
             <Button className='w-[296px]' onClick={() => fetchNextPage()}>
               記録をもっと見る
             </Button>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </>
   );
