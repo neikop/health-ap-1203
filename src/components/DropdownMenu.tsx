@@ -20,6 +20,7 @@ const MENU_ITEMS = [
 
 const DropdownMenu = () => {
   const navigate = useNavigate();
+
   const [open, setOpen] = useState(false);
 
   return (
