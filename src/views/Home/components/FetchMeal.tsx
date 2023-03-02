@@ -44,7 +44,7 @@ const FetchMeal = () => {
   );
 
   return (
-    <div className='container-lg pb-7'>
+    <div>
       <div className='flex justify-evenly my-8'>
         {FITLER_BUTTONS.map((item, index) => {
           const isSelected = dataSearch.type === item.value;

@@ -13,7 +13,9 @@ const Home = () => {
         </div>
       </div>
 
-      <FetchMeal />
+      <div className='container-lg pb-7'>
+        <FetchMeal />
+      </div>
     </>
   );
 };

@@ -4,17 +4,17 @@ const RECORD_TYPES = [
   {
     label: 'BODY RECORD',
     description: '自分のカラダの記録',
-    picture: require('assets/images/MyRecommend-1.jpg'),
+    picture: require('assets/images/recommend_01.jpg'),
   },
   {
     label: 'MY EXERCISE',
     description: '自分の運動の記録',
-    picture: require('assets/images/MyRecommend-2.jpg'),
+    picture: require('assets/images/recommend_02.jpg'),
   },
   {
     label: 'MY DIARY',
     description: '自分の日記',
-    picture: require('assets/images/MyRecommend-3.jpg'),
+    picture: require('assets/images/recommend_03.jpg'),
   },
 ];
 
